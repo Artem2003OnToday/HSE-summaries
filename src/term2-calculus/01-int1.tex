@@ -54,7 +54,7 @@
     \item $\int \frac{dx}{1-x^2} = \frac{1}{2} \ln |\frac{1+x}{1-x}| + C$.
 \end{enumerate}
 \begin{proof}
-    Для 3. Если $x > 0$  $\int \frac{dx}{x} = \ln x + C$ . Если $x < 0$  $\int \frac{dx}{x} = \ln(-x) + C$, то есть $(\ln (-x))' = (\frac{1}{-x}) (-x)' = \frac{-1}{x}$.
+    Для 3. Если $x > 0$  $\int \frac{dx}{x} = \ln x + C$ . Если $x < 0$  $\int \frac{dx}{x} = \ln(-x) + C$, то есть $(\ln (-x))' = (\frac{1}{-x}) (-x)' = \frac{1}{x}$.
 
     Для 11. $(\ln |x+\sqrt{x^2 \pm 1}|)' = \frac{1}{x + \sqrt{x^2 \pm 1}}(x + \sqrt{x^2 \pm 1})' = \frac{1 + \frac{x}{\sqrt{x^2 \pm 1}}}{x + \sqrt{x^2}} = \frac{\frac{\sqrt{x^2 pm 1} + x}{\sqrt{x^2 \pm 1}}}{\sqrt{x^2 \pm 1} + x} = \frac{1}{\sqrt{x^2 \pm 1}}$
 
@@ -90,8 +90,8 @@
 \end{theorem}
 \begin{proof}
     Надо проверить, что $F(\varphi(t))$ --- первообразная для  $f(\varphi(t))\varphi'(t)$.  \[
-        (F(\varphi(t)))' = F'(\varphi(t))\cdot \varphi'(t) = f(\varphi(t))\varphi(t).
-    .\] 
+        (F(\varphi(t)))' = F'(\varphi(t))\cdot \varphi'(t) = f(\varphi(t))\varphi'(t).
+    \] 
 \end{proof}
 \begin{consequence}
     $\int f(\alpha x + \beta)\,dx = \frac{1}{\alpha}F(\alpha x + \beta)+C$
